@@ -1,0 +1,47 @@
+ *{
+    direction: rtl;
+    font-family: Vazirmatn;
+ }
+
+ body {
+     background-color: black;
+     color: white;
+ }
+
+ div {
+     line-height: normal;
+ }
+
+ #second {
+     color: brown;
+     padding: 5px 10px 20px 8px;
+     /* padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 8px; */
+     margin: 40px 15px 40px 20px;
+     /* margin-top: 40px;
+            margin-right: 15px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+ }
+
+ div.common {
+     background-color: white;
+     color: black;
+     margin-bottom: 10px;
+     padding: 15px;
+ }
+
+ div#forth {
+     font-size: 18px;
+     font-weight: bolder;
+ }
+
+ div.active {
+     background-color: chartreuse;
+ }
+ footer{
+    background-color: black;
+    color: white;
+ }

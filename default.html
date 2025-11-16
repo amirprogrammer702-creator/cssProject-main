@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        header{
+            background-color: gray;
+          
+            padding: 50px;
+        }
+        header>h1{
+            text-align: center;
+              color: white;
+        }
+        main{
+            display: flex;
+        }
+        main>aside{
+            background-color: lightgray;
+            width: 30%;
+            padding: 15px;
+
+        }
+
+        main>aside>a{
+            display: block;
+        }
+        main>section{
+            width: 70%;
+            padding: 15px;
+        }
+        main>section>h2{
+            margin-bottom: 15px;
+        }
+        main>section>p#cityDetails{
+            margin-top: 30px;
+        }
+        footer{
+            background-color: gray;
+            color: white;
+            padding: 30px;
+        }
+        footer>h5{
+            text-align: center;
+        }
+        @media(max-width:768px){
+            main{
+                display: block;
+            }
+            main>aside, main>section{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <H1>Cities</H1>
+    </header>
+    <main>
+        <aside>
+            <a href="">London</a>
+            <a href="">Paris</a>
+            <a href="">Tokyo</a>
+        </aside>
+        <section>
+            <h2>London</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, expedita unde itaque totam sed reiciendis voluptate nostrum tempora ratione dolorum, eaque placeat odit modi iste ea. Aspernatur alias distinctio modi.</p>
+            <p id="cityDetails">Beatae fugiat ab nam excepturi vero, officiis dolore eius voluptatem quas, quidem deleniti sunt nostrum hic aliquid, fugit error temporibus tempore cupiditate delectus voluptatibus eveniet! Temporibus eveniet non id perferendis?</p>
+        </section>
+    </main>
+    <footer>
+        <h5>Footer</h5>
+    </footer>
+</body>
+</html>
